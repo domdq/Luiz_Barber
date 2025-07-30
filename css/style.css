@@ -12,6 +12,7 @@
   --color03: #212123; 
 }
 
+
 /********************** NavBar ************************/
 
 nav{
@@ -66,3 +67,79 @@ transition: 0.5s;
   width: 20px;
   height: 20px;
 }
+
+/* ************ Header ********** */
+header{
+  background-image: url('/img/headerBG.jpg');
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerContainer{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+#h1Header{
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  color: var(--color01);
+  margin-bottom: 5px;
+}
+
+#h2Header{
+  font-family: 'Yesteryear';
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  color: var(--color01);
+}
+
+.btnHeader{
+  display: flex;
+  gap: 16px;
+}
+
+#marcaHora{
+  padding: 8px 32px;
+  border: none;
+  border-radius: 7px;
+  background: var(--color02);
+  color: var(--color03);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+#marcaHora:active{
+transform: scale(0.90);
+background: var(--color01);
+color: var(--color02);
+font-weight: bold;
+}
+
+#entrarEmContato{
+  padding: 8px 32px;
+  border: none;
+  border-radius: 7px;
+  background: var(--color03);
+  color: var(--color02);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+#entrarEmContato:active{
+transform: scale(0.90);
+background: var(--color01);
+color: var(--color02);
+font-weight: bold;
+}
+
