@@ -143,3 +143,43 @@ color: var(--color02);
 font-weight: bold;
 }
 
+/* ******************* SECTION ****************** */
+
+section{
+  background: #F0E9DF;
+}
+
+#ulSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px;
+}
+
+.pTitulo{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-top: 60px;
+  color: var(--color03);
+}
+
+.pDescricao{
+    font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center; 
+  margin-top: 15px;
+  color: #4F4F51;
+}
+
+#ulSection li{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
