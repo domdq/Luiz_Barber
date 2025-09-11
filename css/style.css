@@ -143,7 +143,7 @@ color: var(--color02);
 font-weight: bold;
 }
 
-/* ******************* SECTION ****************** */
+/* ******************* SECTION 01 ****************** */
 
 section{
   background: #F0E9DF;
@@ -181,5 +181,98 @@ section{
   flex-direction: column;
   justify-content: center;
 }
+
+/* ************************* Section Plano e Preço ***************************** */
+
+#planosEpreco{
+  background: var(--color03);
+  padding: 100px;
+}
+#h1cards{
+  color: var(--color02);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+#h2cards{
+  color: var(--color01);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  }
+
+  .licards{
+    background: #2C2C2E;
+    border-radius: 10px;
+  }
+  #card{
+    padding: 35px;
+  }
+
+  .tituloPlano{
+    color: var(--color01);
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+.planos{
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pPlano{
+color: var(--color01);
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 1rem;
+}
+
+.preco{
+color: var(--color01);
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 1rem;
+margin-top: 30px;
+}
+
+.sifrao{
+color: var(--color01);
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 0.8125rem;
+}
+
+.btn-contratar{
+  margin-top: 60px;
+  padding: 10px 70px;
+  color: var(--color02);
+  background: var(--color03);
+  border-radius: 5px;
+  border: 1px solid var(--color02);
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.1s;
+}
+
+.btn-contratar:active{
+  background: var(--color03);
+  font-weight: bold;
+  transform: scale(0.95);
+}
+
 
 
