@@ -209,6 +209,7 @@ section{
   align-items: center;
   justify-content: center;
   margin-top: 32px;
+  gap: 32px;
   }
 
   .licards{
@@ -216,7 +217,11 @@ section{
     border-radius: 10px;
   }
   #card{
-    padding: 35px;
+    padding: 30px;
+  }
+
+  .card-titulo{
+    margin-bottom: 25px;
   }
 
   .tituloPlano{
@@ -272,6 +277,52 @@ transition: 0.1s;
   background: var(--color03);
   font-weight: bold;
   transform: scale(0.95);
+}
+
+.btn-card-Pro{
+  margin-top: 60px;
+  padding: 10px 70px;
+  color: var(--color03);
+  background: var(--color02);
+  border-radius: 5px;
+  border: 1px solid var(--color02);
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.1s;
+}
+
+.btn-card-Pro:active{
+  background: var(--color02);
+  font-weight: bold;
+  transform: scale(0.95);
+}
+
+#card-pro{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+#card-pro-btn{
+  padding: 7px;
+  background: var(--color01);
+  border: none;
+  border-radius: 5px;
+}
+
+#tituloPlanoPro{
+  font-family: 'Montserrat';
+font-weight: 500;
+font-size: 0.6875rem;
+}
+
+#tituloPlanoPro{
+    color: var(--color01);
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 
