@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,30 +6,31 @@
   list-style: none;
   font-family: 'Montserrat', 'Playfair Display', 'Yesteryear' sans-serif;
 }
-:root{
+
+:root {
   --color01: #FCF2E4;
   --color02: #CF9D65;
-  --color03: #212123; 
+  --color03: #212123;
 }
 
 
 /********************** NavBar ************************/
 
-nav{
+nav {
   background: var(--color03);
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   padding: 2rem;
 }
 
-#ulNav{
+#ulNav {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-li a{
+li a {
   color: var(--color01);
   font-family: 'Montserrat';
   font-weight: 600;
@@ -37,14 +38,14 @@ li a{
   cursor: pointer;
 }
 
-li a:hover{
-text-decoration: underline;
-color: var(--color02);
-transition: 0.5s;
+li a:hover {
+  text-decoration: underline;
+  color: var(--color02);
+  transition: 0.5s;
 }
 
 
-#btnNav{
+#btnNav {
   padding: 8px 30px;
   border-radius: 7px;
   border: 1px solid var(--color02);
@@ -57,19 +58,19 @@ transition: 0.5s;
   transition: 0.1s;
 }
 
-#btnNav:active{
+#btnNav:active {
   background: #f8eedc;
   font-weight: bold;
   transform: scale(0.85);
 }
 
-#phoneBtn{
+#phoneBtn {
   width: 20px;
   height: 20px;
 }
 
 /* ************ Header ********** */
-header{
+header {
   background-image: url('/img/headerBG.jpg');
   background-size: cover;
   height: 80vh;
@@ -77,11 +78,13 @@ header{
   align-items: center;
   justify-content: center;
 }
-.headerContainer{
+
+.headerContainer {
   margin: 0 auto;
   max-width: 1440px;
 }
-#h1Header{
+
+#h1Header {
   font-family: 'Playfair Display';
   font-weight: 600;
   font-size: 4rem;
@@ -90,7 +93,7 @@ header{
   margin-bottom: 5px;
 }
 
-#h2Header{
+#h2Header {
   font-family: 'Yesteryear';
   font-weight: 400;
   font-size: 4rem;
@@ -98,12 +101,12 @@ header{
   color: var(--color01);
 }
 
-.btnHeader{
+.btnHeader {
   display: flex;
   gap: 16px;
 }
 
-#marcaHora{
+#marcaHora {
   padding: 8px 32px;
   border: none;
   border-radius: 7px;
@@ -116,14 +119,14 @@ header{
   transition: 0.1s;
 }
 
-#marcaHora:active{
-transform: scale(0.90);
-background: var(--color01);
-color: var(--color02);
-font-weight: bold;
+#marcaHora:active {
+  transform: scale(0.90);
+  background: var(--color01);
+  color: var(--color02);
+  font-weight: bold;
 }
 
-#entrarEmContato{
+#entrarEmContato {
   padding: 8px 32px;
   border: none;
   border-radius: 7px;
@@ -136,20 +139,20 @@ font-weight: bold;
   transition: 0.1s;
 }
 
-#entrarEmContato:active{
-transform: scale(0.90);
-background: var(--color01);
-color: var(--color02);
-font-weight: bold;
+#entrarEmContato:active {
+  transform: scale(0.90);
+  background: var(--color01);
+  color: var(--color02);
+  font-weight: bold;
 }
 
 /* ******************* SECTION 01 ****************** */
 
-section{
+section {
   background: #F0E9DF;
 }
 
-#ulSection{
+#ulSection {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +160,7 @@ section{
   padding: 100px;
 }
 
-.pTitulo{
+.pTitulo {
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 1.125rem;
@@ -166,16 +169,16 @@ section{
   color: var(--color03);
 }
 
-.pDescricao{
-    font-family: 'Montserrat';
+.pDescricao {
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 1rem;
-  text-align: center; 
+  text-align: center;
   margin-top: 15px;
   color: #4F4F51;
 }
 
-#ulSection li{
+#ulSection li {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -184,18 +187,20 @@ section{
 
 /* ************************* Section Plano e Preço ***************************** */
 
-#planosEpreco{
+#planosEpreco {
   background: var(--color03);
   padding: 100px;
 }
-#h1cards{
+
+#h1cards {
   color: var(--color02);
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 2rem;
   text-align: center;
 }
-#h2cards{
+
+#h2cards {
   color: var(--color01);
   font-family: 'Montserrat';
   font-weight: 500;
@@ -204,126 +209,186 @@ section{
   margin-top: 15px;
 }
 
-#cards{
+#cards {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 32px;
   gap: 32px;
-  }
+}
 
-  .licards{
-    background: #2C2C2E;
-    border-radius: 10px;
-  }
-  #card{
-    padding: 30px;
-  }
+.licards {
+  background: #2C2C2E;
+  border-radius: 10px;
+}
 
-  .card-titulo{
-    margin-bottom: 25px;
-  }
+.card {
+  padding: 30px;
+}
 
-  .tituloPlano{
-    color: var(--color01);
-    font-family: 'Montserrat';
-    font-size: 1.25rem;
-    font-weight: 600;
-  }
+.card-titulo {
+  margin-bottom: 25px;
+}
 
-.planos{
+.tituloPlano {
+  color: var(--color01);
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.planos {
   display: flex;
   margin-top: 20px;
   gap: 10px;
 }
 
-.pPlano{
-color: var(--color01);
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 1rem;
+.pPlano {
+  color: var(--color01);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-.preco{
-color: var(--color01);
-font-family: 'Montserrat';
-font-weight: 600;
-font-size: 1rem;
-margin-top: 30px;
+.preco {
+  color: var(--color01);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 30px;
 }
 
-.sifrao{
-color: var(--color01);
-font-family: 'Montserrat';
-font-weight: 600;
-font-size: 0.8125rem;
+.sifrao {
+  color: var(--color01);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 0.8125rem;
 }
 
-.btn-contratar{
+
+.btn-contratar {
   margin-top: 60px;
   padding: 10px 70px;
   color: var(--color02);
   background: var(--color03);
   border-radius: 5px;
   border: 1px solid var(--color02);
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 1rem;
-cursor: pointer;
-transition: 0.1s;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.1s;
 }
 
-.btn-contratar:active{
+.btn-contratar:active {
   background: var(--color03);
   font-weight: bold;
   transform: scale(0.95);
 }
 
-.btn-card-Pro{
+.btn-card-Pro {
   margin-top: 60px;
   padding: 10px 70px;
   color: var(--color03);
   background: var(--color02);
   border-radius: 5px;
   border: 1px solid var(--color02);
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 1rem;
-cursor: pointer;
-transition: 0.1s;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.1s;
 }
 
-.btn-card-Pro:active{
+.btn-card-Pro:active {
   background: var(--color02);
   font-weight: bold;
   transform: scale(0.95);
 }
 
-#card-pro{
+#card-pro {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
 }
 
-#card-pro-btn{
-  padding: 7px;
-  background: var(--color01);
-  border: none;
-  border-radius: 5px;
-}
-
-#tituloPlanoPro{
+#tituloPlanoPro {
   font-family: 'Montserrat';
-font-weight: 500;
-font-size: 0.6875rem;
+  font-weight: 500;
+  font-size: 0.6875rem;
 }
 
-#tituloPlanoPro{
-    color: var(--color01);
-    font-family: 'Montserrat';
-    font-size: 1.25rem;
-    font-weight: 600;
+#tituloPlanoPro {
+  color: var(--color01);
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
+#btn-save {
+  padding: 7px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 11px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
 
+#btn-save:active {
+  background: var(--color01);
+  transform: scale(0.95);
+}
 
+/******************** Horários ***************/
+
+.horarioContainer {
+  background: #F0E9DF;
+}
+
+.infor-horario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding: 65px;
+}
+
+.palito{
+width: 2px;
+height: 155px;
+background: black;
+color: black;
+}
+
+.hora{
+  display: flex;
+  margin-top: 8px;
+  gap: 5px;
+}
+
+#sabado{
+  margin-top: 32px;
+}
+
+#h1-horarioDeAtendimento{
+font-family: 'Montserrat';
+font-style: Bold;
+font-size: 2rem;
+text-align: right;
+vertical-align: middle;
+}
+
+.h1-dia-semana{
+font-family: 'Montserrat';
+font-style: Bold;
+font-size: 1.5rem;
+color: var(--color03);
+}
+
+.horas{
+  font-family: 'Montserrat';
+font-size: 1rem;
+color: var(--color03);
+}
