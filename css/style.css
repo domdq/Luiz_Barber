@@ -488,3 +488,144 @@ footer{
   font-size: 1.0625rem;
   color: #645E57;
 }
+
+/* =================== RESPONSIVIDADE =================== */
+
+/* -------- Tablet -------- */
+@media (max-width: 1023px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #ulNav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  header {
+    height: 60vh;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #h1Header {
+    font-size: 3rem;
+  }
+
+  #h2Header {
+    font-size: 2.5rem;
+  }
+
+  #ulSection {
+    gap: 50px;
+    padding: 50px 20px;
+  }
+
+  .infor-horario {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+
+  #form-ifor {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .inputform {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* -------- Celular -------- */
+@media (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  #ulNav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  header {
+    height: 50vh;
+    padding: 10px;
+  }
+
+  #h1Header {
+    font-size: 2rem;
+  }
+
+  #h2Header {
+    font-size: 1.8rem;
+  }
+
+  .btnHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #ulSection {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  #cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .infor-horario {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  form {
+    padding: 40px 20px;
+  }
+
+  #form-ifor {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .inputform {
+    width: 100%;
+    padding: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .btn-form {
+    width: 100%;
+    padding: 12px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer {
+    align-items: center;
+  }
+}
