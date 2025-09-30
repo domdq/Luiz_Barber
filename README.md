@@ -12,7 +12,7 @@ layout moderno, responsivo e de fácil navegação.
 🔗 [Clique aqui para acessar o
 LuizBarber](https://domdq.github.io/Luiz_Barber/)
 
-![Header do Site](https://domdq.github.io/Luiz_Barber/img/header.png)
+![Header do Site](./img/header.png)
 
 ---
 
